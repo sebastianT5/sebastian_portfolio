@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+  <title>Sebastian</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <span class="logo"><img src="images/image.png" alt="">Sebastian</span>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+    
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#service">Extracurriculars</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hello! I'm</h1>
+      <h3><span>Sebastian Tejada</span></h3>
+      <p>I am a high school student at John Muir High School that is always eagered to learn new things while helping those around me.</p>
+      <a href="https://docs.google.com/document/d/1M_KjEGIovv-W70cffiEfpeLWCZgRxpsG412BdjaeQd4/edit" class="btn">Resume</a>
+    </div>
+    <div class="black-hole-img">
+      <img src="images/black_hole.png" alt="Black Hole">
+    </div>
+    <div class="home-img">
+      <img src="images/profile.png" alt="">
+    </div> 
+    <div class="project-info">
+      <h3> 3</h3>
+      <p>Completed Projects</p>
+    </div>
+    <div class="emote-info">
+      <img src="images/emote.png" alt="">
+    </div>
+  </section>
+
+  <!-- div for the blurry circle -->
+  <div class="blurry-circle"></div>
+
+
+   <!-- about me section design -->
+  <section class="about" id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <img src="./images/profile.png" alt="Profile picture" class="about-pic" />
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./images/experience.png" alt="Experience icon" class="icon" />
+          <h3>Experience</h3>
+          <p>4 months<br />Frontend Development</p>
+        </div>
+        <div class="details-container">
+          <img src="./images/education.png" alt="Education icon" class="icon" />
+          <h3>Education</h3>
+          <p>John Muir High School</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          I have experience in web developmetn as well as the use of the Python to analyze data. I am deeply involved with mathematics at a college level and have 
+          started harnessing the power of AI through programming projects. 
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- section services design -->
+
+  <section class="service" id="service">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Extracurriculars</h1>
+
+    <div class="service-container">
+      <div class="service-box">
+        <i class='bx bx-search-alt-2'></i>
+        <h3>Research</h3>
+        <p>I am part of a research group at Caltech's Hall of Mathematics and Physics, 
+          focusing on radar telescopes from the OVRO telescope. I use Python to analyze 
+          astronomical data from images obtained by the telescope.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Robotics</h3>
+        <p>I am the safety captain and outreach director of FIRST robotics team 2404.
+          I ensure the safety of individuals in the machine lab and I am responsible 
+          for the recruitment of individuals and events for the team.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <i class='bx bxs-graduation'></i>        
+        <h3>Mentor</h3>
+        <p>I have served as a mentor for MCF, teaching AI to 20+ students in Pasadena, 
+          and at the Robotics Club Peru, instructing 22 students in robotics, 
+          programming, and mechanics through engaging Zoom projects.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects  section -->
+  <section class=project id="project">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container1 color-container">
+          <div class="article-container">
+            <img
+              src="./images/project-1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">StudySync</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/StudiSync/StudySync'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://studisync.github.io/StudySync/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container1 color-container">
+          <div class="article-container">
+            <img
+              src="./images/project-2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">MindSpace</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sebastianT5/MindSpace'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://sebastiant5.github.io/MindSpace/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container1 color-container">
+          <div class="article-container">
+            <img
+              src="./images/project-3.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">RL Poker</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sebastianT5/RL-Poker'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sebastianT5/RL-Poker'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section class=contact id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./images/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:sebastianlight14@gmail.com">sebastianlight14@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./images/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon linkedin-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/sebastian-tejada-pacheco/">LinkedIn</a></p>
+      </div>
+    </div>
+    <div class="rick-img">
+      <img src="images/rick.png" alt="Rick's Cruiser" class="ricks-img">
+    </div>
+  </section>
+
+  <!-- footer design -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Made by Sebastian Tejada.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+  
+  
+  <!-- custom js -->
+  <script>src="script.js"</script>
+
+</body>
+
+</html>
